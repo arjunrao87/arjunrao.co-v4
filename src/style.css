@@ -6,6 +6,7 @@ body {
 a {
     color:rgba(128, 128, 128, 1);
     text-decoration: underline;
+    color: inherit;
 }
 
 #content {
