@@ -7,9 +7,9 @@ KISS
 ## Commands 
 
 ### To run server locally 
-- `yarn global add http-server`
-- Navigate to folder root 
-- `http-server`
+- Run `yarn global add http-server`
+- Navigate to `src/` in the folder structure 
+- Run `http-server`
 ### To create html posts 
 - `yarn global add gh-markdown-cli` 
 - `mdown --input "posts/**/*.md" --output html`
