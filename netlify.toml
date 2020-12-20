@@ -5,9 +5,7 @@
 [[redirects]]
   from = "/index.html"
   to = "/"
-  status = 200
 
 [[redirects]]
   from = "/maker/maker.html"
   to = "/maker"
-  status = 200
