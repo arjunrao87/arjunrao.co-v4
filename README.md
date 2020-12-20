@@ -5,6 +5,11 @@
 KISS
 
 ## Commands 
-- To create html posts 
-    - `yarn global add gh-markdown-cli` 
-    - `mdown --input "posts/**/*.md" --output html`
+
+### To run server locally 
+- `yarn global add http-server`
+- Navigate to folder root 
+- `http-server`
+### To create html posts 
+- `yarn global add gh-markdown-cli` 
+- `mdown --input "posts/**/*.md" --output html`
