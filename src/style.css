@@ -3,6 +3,12 @@ body {
     font-size: 16px;
 }
 
+.navlink:link {
+    color:rgba(128, 128, 128, 1);
+    color: inherit;
+    text-decoration: unset;
+}
+
 a {
     color:rgba(128, 128, 128, 1);
     text-decoration: underline;
@@ -10,5 +16,9 @@ a {
 }
 
 #content {
+    padding-top: 45px
+}
+
+#maker-content {
     padding-top: 45px
 }
