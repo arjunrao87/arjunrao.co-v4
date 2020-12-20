@@ -1,11 +1,3 @@
 # example netlify.toml
 [build]
   publish = "src"
-
-[[redirects]]
-  from = "/index.html"
-  to = "/"
-
-[[redirects]]
-  from = "/maker/maker.html"
-  to = "/maker"
