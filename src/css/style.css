@@ -15,10 +15,6 @@ a {
     color: inherit;
 }
 
-#content {
-    padding-top: 45px
-}
-
-#maker-content {
+.content {
     padding-top: 45px
 }
