@@ -1,6 +1,6 @@
 # arjunrao.co-v4
 
-4th iteration of a personal site using HTML, CSS
+4th iteration of a personal site using HTML, CSS, JS
 
 KISS
 
