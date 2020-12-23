@@ -5,17 +5,16 @@
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/posts.js"></script> 
+    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+    <script type="text/javascript" src="js/posts.js"></script>
+    <script>window.ZeroMdConfig = { cssUrls: ['css/style.css'] }</script>
+    <title>Arjun Rao | ♥️ 👋🏽 🤷🏽‍♂️ 🙌🏾</title>
 </head>
-
-<body>
-    <a href="/" class="navlink"> << arjunrao.co </a>
-    <div class="content">
-        <h3>Posts</h3>
-
-    </div>
-</body>
-
+  <body>
+    <a href="/posts" class="navlink"> << arjunrao.co/posts </a>
+    <zero-md id="app" src="essays/2015-03-19/thought-cloud.md"></zero-md>
+    <script>formatMarkdown();</script>
+  </body>
 </html>
