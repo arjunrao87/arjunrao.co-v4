@@ -1,4 +1,4 @@
-function formatMarkdown() {
+function cleanMarkdownForPost() {
     app.addEventListener('zero-md-rendered', ev => {
         const md = app.shadowRoot.querySelector(".markdown-body")
         const frontmatter = md["children"][1].textContent.split("\n")
@@ -19,4 +19,12 @@ function formatMarkdown() {
         metadataNode.textContent = date
         md.insertBefore(metadataNode, md.children[1])
     });
+}
+
+function renderPost(){
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const path = urlParams.get("path")
+    document.write('<zero-md id="app" src='+path+'></zero-md>');
+    cleanMarkdownForPost()
 }
