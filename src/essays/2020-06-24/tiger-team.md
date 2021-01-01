@@ -9,18 +9,18 @@ _(This article was originally published on [PlatoHQ](https://www.platohq.com/res
 
 Arjun Rao is the Director of Engineering at Place Exchange. Here, he talks about how he assembled a tiger team, which is a specialized, cross-functional team brought together to fix or investigate a critical issue, and how that team helped resolve a specific problem within a short period of time.
 
-# Problem
+## Problem
 Place Exchange is making Out of Home advertising truly programmatic. As a result, a lot of our bread and butter is processing transactions and serving ads. It is critical in nature and therefore expects very high up-times, so that we can continuously receive and process requests to serve ads on out-of-home screens.
  
 Over the back half of last year, there was a heavy increase in traffic coming our way. We noticed that one of our services critical to ad serving began to feel the load. This didn’t cause any SLA-related issues, but were severe enough for me to decide it was a problem worth solving, so as to not run into it in the future.
  
-# Actions taken
+## Actions taken
 
-## Investigation
+### Investigation
 
 In the time between the two traffic spikes in September, before the tiger team was put together, we poked around to see whether or not there were small steps we could take to solve the problem or if it required a more focused effort. This exercise helped us understand that the root cause of the problem was increased strain on the database causing performance issues.
  
-## Critical Next Steps
+### Critical Next Steps
 
 Tuning database performance, either by optimizing SQL queries or tinkering with database parameters, is a hard problem and not something everyone is familiar with. To tackle that, I assembled a tiger team composed of four senior members of the staff. By the beginning of August, these engineers knew what the stack looked like and put their heads together to figure out how to solve the problem.
  
@@ -37,7 +37,7 @@ We came up with a list of metrics to be created/updated, to provide both early w
  
 Since that three week period, we haven’t seen any notable spikes correlated with our initial observations, and our scale since then has seen a consistent increase. So far so good, but we have also been implementing some of those long term proposals to keep the ball rolling forward.
 
-# Lessons learned
+## Lessons learned
 
 - You want the people who are solving the problem to be focused on what they are doing without distractions. Being able to free them up and have them direct their attention on a new project that came out of nowhere, can be complicated.
 - You need to make sure you have the right people to solve the project in an urgent manner. As you run your hiring process, you should ask yourself, ‘Do we have enough bench strength across the team, in the event we come across that we might not be able to foresee?’ It’s helpful to have organizational slack for the flexibility to pull people to solve critical problems. If the teams are being run too thin, then you can’t switch your team’s focus, as it will be very disruptive and will result in being counterproductive to the business goals. Your team needs to understand why it’s an important problem to solve and that there is enough breadth in the team to handle this, in addition to scheduled work. It was very cool to see our own team come together like that.

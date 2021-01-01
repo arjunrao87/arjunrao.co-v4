@@ -4,8 +4,8 @@ year: "2016"
 title: "The Quintessence of Travel"
 category: "Travel"
 ---
-“The traveler sees what he sees.  The tourist sees what he has come to see.”
--G.K. Chesterton
+> The traveler sees what he sees.  The tourist sees what he has come to see. -G.K. Chesterton
+
 A question I spend far too much time thinking about, is how do I become a better traveler and avoid the pitfalls of becoming a tourist. While this topic of discussion could diverge along multiple paths, the train of thought specifically that I am talking about is, reminiscing about a particular travel in its entirety. The question, then is, what does it mean to capture the essence of a trip? Given the technology and tools at our disposal today, there are certain major shortcomings in our ability to weave a complete fabric of our travelogue.
 First and foremost among these is a sense of food/taste. You could argue of course, that taking pictures or videos of the food we partake in and the libations we consume, are sufficient in giving a sense of the cuisine. However, I am talking more about the actual taste of the food being captured, not just the visualizations. Perhaps, there will come a day when this will be possible.
 Second on the list, is a sense of smell. It has been found that smell is among the strongest senses to trigger past memories. Be it the alpine scent of the mountains or the fresh aroma of that coffee brewing in that cafe you went to, there is literally no way, at the moment, that we can capture smell for future reference.
@@ -19,7 +19,7 @@ Disclaimer 3 : I expect this to be an ever-changing list, throwing away unnecess
 Getting into the crux of this post, I tried to come up with a list of devices and applications to use for "the apt scenario". I tried to cover a swath of possible scenarios, but I don't believe this is the be-all and end-all. I have tried to pair a situation with the appropriate equipment to almost provide a Cliff Notes version of bottling travel time.
 I wanted to make a few pointers about the list given below. I currently own a Sony A6000,  but as they say, the best camera is the one you have with you. So this could be a point and shoot, DSLR or a mobile phone. When I refer to the "media" associated with a category of photos/videos, I mean just that. It is the medium or media that you want to broadcast your memories ( post-processed  or otherwise ) onto.
 
-# Photos
+## Photos
 ### Scenario  -  Scenic / Picturesque / Still 
 - Device : Sony A6000
 - Media  : 500px, Instagram
@@ -28,46 +28,46 @@ I wanted to make a few pointers about the list given below. I currently own a S
 - Device : iPhone / Android
 - Media  : Instagram
 
-# Videos
-## iPhone
-### Scenario - On-the-go video capture/Short and Impulsive/of-the-moment( Audio required )
+## Videos
+### iPhone
+#### Scenario - On-the-go video capture/Short and Impulsive/of-the-moment( Audio required )
 - App : iPhone/Android camera
 - Media  : Youtube( VLogs )
 
-### Scenario - Stitching  moments (Audio required)
+#### Scenario - Stitching  moments (Audio required)
 - App : Vine
 - Media : Vine / Instagram
 
-### Scenario - Creating short timelapse (No audio required)
+#### Scenario - Creating short timelapse (No audio required)
 - App : Hyperlapse
 - Media : Instagram
 
-### Scenario - Broadcast location and activity (Audio required) 
+#### Scenario - Broadcast location and activity (Audio required) 
 - App : Periscope
 - Media : Periscope
 
-## Sony A6000
-### Scenario - Scenic/ Still  video capture 
+### Sony A6000
+#### Scenario - Scenic/ Still  video capture 
 - App     : Camera video
 - Media  : Youtube
 
-### Scenario - Long timelapses 
+#### Scenario - Long timelapses 
 - App : Timelapse app
 - Media : Youtube
 
-## GoPro
-### Scenario - Action / Motion 
+### GoPro
+#### Scenario - Action / Motion 
 - App    : Camera video
 - Media : Youtube
 
-# Location based logging
+## Location based logging
 - Swarm
 - Moves ( Or some other motion tracking app )
 - Writing a travelogue ( Book )
 - Writing a travelogue online ( Blogging/Vlogging online )
 - Wayn ( Social networking for travellers )
 
-# Collecting memories 
+## Collecting memories 
 - Ticket stubs
 - Postcards
 - Magnets

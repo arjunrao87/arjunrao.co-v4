@@ -7,7 +7,7 @@ category: "Personal Growth"
 
 I was recently on a panel with [COOP](https://coopcareers.org/) which is an organization that is building a diverse movement of upwardly mobile college grads overcoming underemployment through digital skills and peer connections. It was a fantastic experience, and the students who were part of it, were awesome to interact with. During this panel, I was asked a question - 
 
->>> Was it ever intimidating to work with the enormous amount of talent that you have come across throughout your career?
+> Was it ever intimidating to work with the enormous amount of talent that you have come across throughout your career?
 
 
 Yes. There is no way around it, and its not even a thing in the past. If you are honest with yourself, then the unequivocal answer is `yes`. If people say otherwise they are either -

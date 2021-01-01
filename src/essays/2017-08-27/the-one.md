@@ -24,11 +24,6 @@ Enter ‘The One’. The One is a mobile app based on the premise that choice is
 ## Getting the app
 
 The app is available in the Google Play store (Android) and you can download it [here](https://play.google.com/store/search?q=org.tnc.theone&hl=en). If there is any kind of demand for it, I will consider putting it on the App Store (iOS).
-
-<p align="center">
-  <img src ="https://arjunrao87.github.io/assets/img/blog-posts/options.png"/>
-</p>
-
 ## Key Features
 
 I had initially designed a Meteor app ( called Where Do We Go? )which was web based a couple of years ago, but I decided to make it a mobile app this time around. Let me highlight a few key features of this app —
@@ -46,10 +41,6 @@ I had initially designed a Meteor app ( called Where Do We Go? )which was web ba
 6. There is no signup required for the app. It just works! The results are powered by the Foursquare API.
 
 7. As I do not have any design background, the look and feel of the app is very striking. The colors are bold and bright to show a sense of decisiveness coupled with simplicity.
-
-<p align="center">
-  <img src ="https://arjunrao87.github.io/assets/img/blog-posts/v1.png"/>
-</p>
 
 ## Technical architecture
 

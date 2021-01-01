@@ -32,7 +32,7 @@ This diagram says that to be rich, you need a varied (diversified) set of stream
 
 This is something that I think about a lot and in the past I have always thought buying a house is the _right_ thing to do. As I have gotten older, that has changed quite a bit and I have moved to the camp of thought that buying a house is a liability rather than an asset. This is crystallized by what I read in the book, an excerpt of which is [here](https://www.richdad.com/is-house-an-asset)
 
->>> But in the real world where you need money in your pocket to survive, if you have a house, paid for or not, that you live in, then it really isn’t an asset. Instead of putting money in your pocket, it takes money out of your pocket in the form of a mortgage, utility payments, taxes, maintenance, and more. That is the simple definition of a liability.
+> But in the real world where you need money in your pocket to survive, if you have a house, paid for or not, that you live in, then it really isn’t an asset. Instead of putting money in your pocket, it takes money out of your pocket in the form of a mortgage, utility payments, taxes, maintenance, and more. That is the simple definition of a liability.
 
 ![](./images/own-house.jpg)
 
@@ -64,10 +64,10 @@ I pay about ~36% taxes, which I am fine with paying as long as it gets used and 
 4. **What is "Wealth" ?** 
 
 Wealth is not intended to be a trope to show off, but is more definitionally aligned with financial freedom. From the book - 
->>> Wealth is the person's ability to survive so many number of days forward - or if I stopped working today, how long can I survive? 
+> Wealth is the person's ability to survive so many number of days forward - or if I stopped working today, how long can I survive? 
 
 While by itself that is incredibly interesting, Robert takes it one step further by defining it as 
->> Wealth is the measure of the cash flow from the asset column compared with the expense column
+> Wealth is the measure of the cash flow from the asset column compared with the expense column
 
 This to me is absolutely mindblowing. This really drives home the point, that if you focus on picking assets that are provide income, you can create a runway for yourself without needing to rely on your paycheck as the main source of sustenance. This also craftily decouples the concept of "richness" from "wealth" which is an important distinction to make. 
 

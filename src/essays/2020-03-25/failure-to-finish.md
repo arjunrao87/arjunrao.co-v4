@@ -5,11 +5,11 @@ title: "The failure to finish & how to get better at completing projects that yo
 category: "Personal Growth"
 ---
 
->> "There is no failure, except in no longer trying." - Chris Bradford
+> "There is no failure, except in no longer trying." - Chris Bradford
 
 *Full disclaimer* - I had no idea who [Chris Bradford](http://www.chrisbradford.co.uk/books.html) was before I read this, but this quote resonated with me quite profoundly, and thus it finds its way as the opening statement to this post.
 
-# What is the failure to finish?
+## What is the failure to finish?
 If you were to peruse any sort of literature, be it historical or contemporary, you will find a multitude of trite sayings or expressions, all pointing out the value of failure -
 - How failure is acceptable.
 - How it is a stepping stone to achieving that greatness, that is oh-so-close, if you put in the effort. 
@@ -28,7 +28,7 @@ Without beating around the bush, my explanation of not finishing my tasks or sid
 
 The crux of this post is to delve into the _why_ and the _how_. **Why** is it so tough to finish something we start and **how** can this be fixed?
 
-# Why do people fail to finish?
+## Why do people fail to finish?
 
 I want to list out some of the reasons that make it hard to see a project all the way to completion - 
 - Premature initiation - You don't believe in the idea, but you start working on it anyway
@@ -53,14 +53,14 @@ I want to list out some of the reasons that make it hard to see a project all th
     - lack of product stickiness or differentiation
     - lack of network
 
-# How do we succeed at finishing?
+## How do we succeed at finishing?
 
 - **Set measurable goals** - Create small realizable goals with active results. Do things like a/b testing to measure the goal. You can use frameworks like OKRs or Daily TODOs be held accountable 
 - **Surround yourself with good company** - Surround yourself with ppl who get shit done. Do not surround yourself with people who talk negatively about getting stuff done.
 - **Improve your focus** - Yoga, meditation or any kind of mental peace routine will help you calm the brownian motion of your thoughts. Once you achieve a semblance of calmness, you can apply [constant never ceasing vigilance](https://books.google.com/books?id=C5qdiQE2g9sC&pg=PA104&lpg=PA104&dq=constant+never+ceasing+vigilance+harry+potter&source=bl&ots=kC8_Tl02FU&sig=ACfU3U2NTEn3_LSDnmIbbgJVgphTSqeYsg&hl=en&sa=X&ved=2ahUKEwiQms6-xq7oAhUnlnIEHZDkATYQ6AEwA3oECAgQAQ#v=onepage&q=constant%20never%20ceasing%20vigilance%20harry%20potter&f=false) and discipline to continue to be focussed. 
 - **Keep the goals small** - Look at the small picture and hack away. Don't let the focus of your project be the absolute end goal, but instead focus on the incremental milestones along the way. Alabama has produced one of the best college football programs today, and the [head coach Nick Saban](https://constantrenewal.com/nick-saban-the-process/) , after speaking with psychiatry professor Lionel Rosen, realized that the average play in football lasts just seven seconds.
 
->> It’s impossible to read and execute every play to perfection for the entire game. But seven seconds? Anyone can do that. Execute, rest, repeat and you eventually have a game.
+> It’s impossible to read and execute every play to perfection for the entire game. But seven seconds? Anyone can do that. Execute, rest, repeat and you eventually have a game.
 
 - **Do not move the goalposts** - Avoid creating new targets for what you are attempting to achieve. Doing so, will undo all the gains you make, both mentally and from a project perspective, and might need you to start from scratch. Unless there is an incredibly real need to do so, avoid it.
 - **Single task, don't multi task** - Humans by nature, despite our many attempts to fool ourselves, are only really good at doing one cognitively intensive task at a time. While there can be outliers, smart money would say that is the exception rather than the norm. 
