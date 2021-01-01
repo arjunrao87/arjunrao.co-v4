@@ -24,13 +24,3 @@ a {
 .content {
     padding-top: 45px
 }
-
-ul {
-    list-style: none;
-}
-
-ul li::before {
-    content: "🔸";
-    display: inline-block;
-    margin-right: 0.2rem;
-  }
