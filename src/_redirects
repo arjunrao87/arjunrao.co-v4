@@ -1,4 +1,4 @@
 # Redirects from what the browser requests to what we serve
 /home                   /
 /index.html             /
-/essays/*               /post?path=/essays/:splat
+/essays/:date/:file               /post?path=/essays/:date/:file   200
