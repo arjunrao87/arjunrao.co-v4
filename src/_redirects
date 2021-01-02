@@ -2,4 +2,4 @@
 /home                   /
 /index.html             /
 /maker                  /maker/maker.html
-/post?path=:slug.md     /posts/:slug
+/post?path=:slug     /posts/:slug
