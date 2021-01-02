@@ -1,4 +1,4 @@
 # Redirects from what the browser requests to what we serve
 /home                   /
 /index.html             /
-/post?path=essays/:date/:title.md         /maker
+/post?path=essays/:date/:title.md         /:date/:title
