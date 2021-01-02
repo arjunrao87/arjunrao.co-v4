@@ -2,4 +2,4 @@
 /home                   /
 /index.html             /
 /maker                  /maker/maker.html
-/post path=:path        /:path 301
+/post/*                 /:splat 301
