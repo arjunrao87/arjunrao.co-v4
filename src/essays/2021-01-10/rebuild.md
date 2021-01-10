@@ -5,7 +5,7 @@ title: "arjunrao.co-v4 - Yet another website rebuild"
 category: "Technology"
 ---
 
-Towards the end of December, I tried to push a change to my website (built with Gatsby) and realized that the recent Catalina upgrade on my Mac left one of the Gatsby plugins completely broken. This post is about the learning I got from the next iteration of my personal website, so I will begin by saying that I decided that I do not need a heavy Javascript framework to publish my personal content. 💥
+Towards the end of December, I tried to push a change to my website (built with Gatsby) and realized that the recent Catalina upgrade on my Mac left one of the Gatsby plugins completely broken. This post is about the learning I got from the next iteration of my personal website, so I will begin by saying that I decided to not use a heavy Javascript framework to publish my personal content. 💥
 
 ![](assets/boromir.jpg)
 
