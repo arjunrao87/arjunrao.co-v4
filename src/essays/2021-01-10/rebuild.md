@@ -9,7 +9,7 @@ Towards the end of December, I tried to push a change to my website (built with 
 
 ![](assets/boromir.jpg)
 
-After this little epiphany, I figured why not go all the way down to the bones and try to resurrect the next version of arjunrao.co, using just HTML, CSS and maybe some JS (how original!). Ordinarily, this would be a non-story, but a few things made this more challenging that I initially foresaw - 
+After this little epiphany, I figured why not go all the way down to the bones and try to resurrect the next version of arjunrao.co, using just HTML, CSS and maybe some JS (how original!). Ordinarily, this would be a non-story, but a few things made this more challenging than I initially foresaw - 
 1. I haven't had the chance to write something in this vanilla stack for several years now, so I wanted to see what things I could learn/talk about with a new lens.
 2. I did not want to use any frameworks of any kind, for the construction of the site itself. The intent was to not rely on 3rd party plugins and update cycles to host a simple personal blog. I slipped on this a little bit, but more to come on this in a while. 
 3. I wanted to continue writing my blog posts in raw markdown and have them available on my static site - especially so because I had markdown posts dating back 5 years, that I didn't want to have to rewrite in something else. 
@@ -58,7 +58,7 @@ There are an awful lot of nifty things I found and debugged along the way, with 
 
 # 📝 Publishing markdown posts to a static site
 
-As I mentioned before, I tried out through multiple options to give me the freedom to write my post as markdown and have it rendered as HTML after I deployed my site. Some categories of options that I looked at were - 
+As I mentioned before, I tried multiple options to give me the freedom to write my post as markdown and have it rendered as HTML after I deployed my site. Some categories of options that I looked at were - 
 - Markdown -> HTML at build/deploy time : This to me was least preferable, since it would involve some work around importing NPM packages, and doing some webpack magic. Some options in this category were libraries like [remark](https://github.com/remarkjs/remark). 
 - Markdown -> HTML at render time : This would be pretty ideal, since I wouldn't need to do a whole lot of pre-processing and could just have the conversion occur automagically. This is where zero-md came in.
 
@@ -66,9 +66,9 @@ To give you a sense of how I used zero-md though, might need a little bit of bac
 
 ![](assets/postsfolder.png)
 
-The idea I started off with was to have a "Posts" page, where I could show a list of all these posts that I have written, and have that be dynamically generated from the folder structure above. Alas, that is not possible even using client-side Javascript, without using some form of server-side magic, atleast not to the extent that I found possible. So I abandoned that endeavor, and decided that instead of [shaving the yak](https://seths.blog/2005/03/dont_shave_that/), I would just _manually_ list out all the posts I have in a `posts.html`  and figure out how to render the markdown as HTML, in a redirect to that post-specific page (sigh, yes I feel your pain too - but in the words of my mother-in-law, you need to know which battles to pick...). 
+The idea I started off with was to have a "Posts" page, where I could show a list of all these posts that I have written, and have that be dynamically generated from the folder structure above. Alas, that is not possible using client-side Javascript, atleast not to the extent that I found possible. So I abandoned that endeavor, and decided that instead of [shaving the yak](https://seths.blog/2005/03/dont_shave_that/), I would just _manually_ list out all the posts I have in a posts.html  and figure out how to render the markdown as HTML, in a redirect to that post-specific page (sigh, yes I feel your pain too - but in the words of my mother-in-law, you need to know which battles to pick...). 
 
-Once I settled on that approach, I went ahead to create `post.html` which would be the representation and rendering of a single `Post` object. This would mean that this is where zero-md would shine most brightly. This is how I imported zero.md in that file 
+Once I settled on that approach, I went ahead to create post.html which would be the representation and rendering of a single `Post` object. This would mean that this is where zero-md would shine most brightly. This is how I imported zero-md in that file 
 
 ```html
 <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
@@ -79,7 +79,7 @@ Once I settled on that approach, I went ahead to create `post.html` which would 
 
 The 2 challenges of incorporating zero-md with my approach were 
 
-1. Dynamically passing which post to render on the redirect to `post.html` 
+1. Dynamically passing which post to render on the redirect to post.html 
 2. Handling Frontmatter that I have used quite liberally in all of my markdown posts
 
 The solution to the first one, while not elegant, is not as interesting to talk through. Understanding how to get into the guts of zero-md to figure out the answer to the 2nd question, however, was a heck of a lot more interesting. 
