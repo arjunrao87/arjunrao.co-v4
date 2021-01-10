@@ -54,7 +54,47 @@ There are an awful lot of nifty things I found and debugged along the way, with 
 
 As I mentioned before, I read and mocked through multiple options to give me the freedom to write my post as markdown but have it rendered as HTML after I deployed my site. Some categories of options that I looked at were - 
 - Markdown -> HTML at build/deploy time : This to me was least preferable, since it would involve some work around importing NPM packages, and doing some webpack magic. Some options in this category were libraries like [remark](https://github.com/remarkjs/remark). 
-- Markdown -> HTML at render time : This would be pretty ideal, since I wouldn't need to do a whole lot of pre-processing and could just have the conversion occur automagically.
+- Markdown -> HTML at render time : This would be pretty ideal, since I wouldn't need to do a whole lot of pre-processing and could just have the conversion occur automagically. This is where zero-md came in.
+
+To give you a sense of how I used zero-md though, might need a little bit of background. This is how my markdown posts are structured - 
+
+![](assets/postsfolder.png)
+
+My goal was to have a "Posts" page, where I could show a list of all these posts that I have written, and have that be dynamically generated from the folder structure above. Alas, that is not possible even using client-side Javascript, without using some form of server-side magic, atleast not to the extent that I found possible. So I abandoned that endeavor, and decided that instead of [shaving the yak](https://seths.blog/2005/03/dont_shave_that/), I would just _manually_ list out all the posts I have in a `posts.html`  and figure out how to render the markdown as HTML in a redirect to that post-specific page (sigh, yes I feel your pain too - but in the words of my mother-in-law, you need to know which battles to pick...). 
+
+Once I settled on that approach, I went ahead to create `post.html` which would be the representation and rendering of a single `Post` object. This would mean that this is where zero-md would shine most brightly. This is how I imported zero.md in that file 
+
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
+<script>window.ZeroMdConfig = { cssUrls: ['css/style.css'] }</script>
+```
+
+[zero-md documentation](https://zerodevx.github.io/zero-md/basic-usage/) is very clear and straightforward, but just for clarity the 2nd script import isn't strictly needed, its just syntatic sugar to ensure styles are applied globally. 
+
+The 2 challenges of incorporating zero-md with my approach were 
+
+1. Dynamically passing which post to render on the redirect to `post.html` 
+2. Handling Frontmatter that I have used quite liberally in all of my markdown posts
+
+The solution to the first one, while not elegant, is not as interesting to talk through. Understanding how to get into the guts of zero-md to figure out the answer to the 2nd question, however, was a heck of a lot more interesting. 
+# Frontmatter 💔 zero-md, atleast to begin with
+
+Frontmatter, as defined in the [context of YAML](https://assemble.io/docs/YAML-front-matter.html), 
+> YFM is an optional section of valid YAML that is placed at the top of a page and is used for maintaining metadata for the page and its contents.
+
+Frontmatter wasn't strictly necessary for my posts, but at this point it has become quasi-markdown standard for defining key metadata fields to qualify the .md document and I didn't want to reinvent the wheel. Sample YFM for me looked something like 
+
+```yml
+---
+date: "2019-04-09"
+year: "2019"
+title: "Observations and opinions on navigating work and life"
+category: "Philosophy"
+---
+```
+
+However, zero-md definitely didn't know what to do with this and I was subject to a resounding SPLAT and this is how it looked without doing anything -
+
 
 # Enabling high SEO and all that jazz
 
@@ -63,8 +103,6 @@ As I mentioned before, I read and mocked through multiple options to give me the
     - SEO increased by adding meta.description
 
 - Building the markdown posts
-    - going through the selection process of what markdown converter to use 
-        - reference: https://stackoverflow.com/questions/16633057/is-it-possible-to-access-shadow-dom-elements-through-the-parent-document
     - things you tried (console.log outside, console.log inside the app.zero-md-render event)
     - finally `app.shadowRoot.querySelector(".markdown-body")` based on how shadowroot works 
     - using zmode with custom template 
