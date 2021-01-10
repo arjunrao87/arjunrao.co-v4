@@ -44,3 +44,17 @@ blockquote:before {
 blockquote p {
     display: inline;
 }
+
+p img{
+    width:98%;
+    border: 2px solid #555;
+}
+
+code {
+    font-family: Consolas,"courier new";
+    color: #ffbe85;
+    background-color: #202b38;
+    padding: 2px;
+    font-size: 105%;
+    width: 100%;
+  }
