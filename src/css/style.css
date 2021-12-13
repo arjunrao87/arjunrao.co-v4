@@ -34,6 +34,10 @@ a {
     height: auto;
 }
 
+@media screen and (max-width: 600px) { 
+    .responsive-profile { display: none; }
+}
+
 .column-left{ float: left; width: 25%; }
 .column-center{ display: inline-block; width: 75%; }
 
