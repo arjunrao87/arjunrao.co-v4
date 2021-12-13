@@ -25,6 +25,32 @@ a {
     padding-top: 45px
 }
 
+.container {
+    display: flex;
+    padding-top: 45px
+}
+
+.container div {
+    flex: 1;
+}
+
+.column_center {
+    order: 2;
+}
+
+.main-page {
+    padding-top: 45px
+}
+
+.responsive-profile {
+    width: 50%;
+    height: auto;
+}
+
+.column-left{ float: left; width: 25%; }
+.column-right{ float: right; width: 25%; }
+.column-center{ display: inline-block; width: 50%; }
+
 blockquote {
     border-left: 5px solid #ccc;
     margin: 1.5em 10px;
