@@ -1,2 +1,6 @@
 [build]
   publish = "src"
+
+[[redirects]]
+  from = "/post?path=essays/2021-01-10/rebuild.md"
+  to = "/posts/post/rebuild"

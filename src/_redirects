@@ -1,3 +1,4 @@
 # Redirects from what the browser requests to what we serve
 /home                   /
 /index.html             /
+/post?path=essays/2021-01-10/rebuild.md  /posts/post/rebuild
