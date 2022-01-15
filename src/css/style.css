@@ -9,6 +9,10 @@ body {
     text-decoration: unset;
 }
 
+table, th, td {
+    border:1px solid rgba(128, 128, 128, 1);
+}
+
 a {
     color:rgba(128, 128, 128, 1);
     text-decoration: underline;
