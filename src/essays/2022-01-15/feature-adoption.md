@@ -1,6 +1,6 @@
 # Tracking Feature adoption 
 
-As an Engineering Manager, one of the things that I look for is how the features we shipped are performing i.e. are they working the way we initially expected or not. These are broadly referred to as Feature Adoption Metrics. There are a lot of ways to skin the cat on this one, and one of the PMs, [Shreyas Doshi](https://twitter.com/shreyas), had this to say about adoption metrics 👇🏽
+As an Engineering Manager, one of the things that I look for is how the features we shipped are performing i.e. are they working the way we initially expected or not. These are broadly referred to as Feature Adoption Metrics. There are a lot of ways to skin the cat on this one, and one of the PMs I follow on Twitter, [Shreyas Doshi](https://twitter.com/shreyas), had this to say about adoption metrics 👇🏽
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">3/<br>Adoption metrics<br><br>Key question:<br>Is the product (along with its key features) being used as much as we’d hope and in the ways that we’d like?<br><br>Examples:<br>active users, dau:mau, N of M day usage, strategic feature adoption trends, free-to-paid conversions,...</p>&mdash; Shreyas Doshi (@shreyas) <a href="https://twitter.com/shreyas/status/1304628724587929600?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
