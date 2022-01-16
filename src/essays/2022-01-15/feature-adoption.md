@@ -10,7 +10,7 @@ While the thread above focuses on the "what", I like to think about the "why" an
 
 Peter Drucker said “If you can't measure it, you can't manage it.” which is largely considered as canon in product development. The Lean Startup popularized the idea of "Build Measure Learn" to create tight loops of learning. 
 
-Over time, this has morphed into all kinds of terminology be it KPIs, Measures of Success, Acceptance Criteria - all of which seek to determine gauging a successful outcome - be it for a development task, quarterly strategy or for that matter, feature adoption. 
+Over time, this has morphed into terminology like KPIs, Measures of Success, Acceptance Criteria - all of which seek to determine gauging a successful outcome - be it for a development task, quarterly strategy or for that matter, feature adoption. 
 
 ![](assets/bml.jpeg)
 
