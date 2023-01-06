@@ -6,9 +6,7 @@ Being fiscally conservative and careful about money is something that was drille
 
 I have created the Ultimate Net Worth Guide to provide a framework of measuring and understanding Net Worth as a tool to ensure you are able to achieve your financial goals in life. You can find out more at this link below -
 
-Ultimate Net Worth Guide
-The Ultimate Net Worth Guide provides a basic framework to track your Net Worth and give you techniques to get insight into advanced views like your exposure to various types of...
-arjunrao87.gumroad.com
+[![Ultimate Net Worth Guide](assets/unwg.png)](https://arjunrao87.gumroad.com/l/ultimate-net-worth-guide)
 
 ## What is Net Worth?
 
@@ -35,7 +33,7 @@ or any other decision that you have the agency to take on your path to financial
 
 By this point, I hope you understand the importance of keeping track of your Net Worth and how it can positively impact your future. I have been tracking my Net Worth for the past decade or so, and I have a system that works really well for me which I have decided to make available to others to embark upon this mission for themselves.
 
-As a quick reminder, you can learn more about my system and purchase it through Gumroad here ⇒ Ultimate Net Worth Guide
+As a quick reminder, you can learn more about my system and purchase it through Gumroad here ⇒ [Ultimate Net Worth Guide](https://arjunrao87.gumroad.com/l/ultimate-net-worth-guide)
 
 ## What does the Guide help with?
 
@@ -58,4 +56,6 @@ First and foremost, this is meant for anyone who wants to get on the path to own
 
 I hope to make available several other resources to help keep this journey up, and if there are any questions or thoughts that you have that you would like to see, let me know at @raoarjun on Twitter
 
-💥 Make sure you head to the link [here](https://arjunrao87.gumroad.com/l/ultimate-net-worth-guide), and set sail on your path to financial freedom!
+💥 Make sure you head to the link below, and set sail on your path to financial freedom!
+
+[![Ultimate Net Worth Guide](assets/unwg.png)](https://arjunrao87.gumroad.com/l/ultimate-net-worth-guide)
