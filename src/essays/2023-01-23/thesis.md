@@ -1,4 +1,4 @@
-# My Master’s Thesis: 12 years laterth
+# My Master’s Thesis: 12 years later
 
 When I went to Rutgers for my Masters of Science, I wrote a thesis on “Improving parking garage efficiency using reservation optimization techniques” — yes, a mouthful but it was a lot of effort that resulted in a Master’s Dissertation.
 
