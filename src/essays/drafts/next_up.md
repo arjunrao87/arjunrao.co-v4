@@ -1,0 +1,6 @@
+- notion net worth readme 
+- financial 101 
+- auth0 pwdless access 
+- platohq conversations written out 
+- what is my day/week/month allocation of work as a Sr. Dir of Eng
+- liftoff framework

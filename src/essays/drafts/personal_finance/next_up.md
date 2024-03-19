@@ -1,0 +1,10 @@
+--- 
+- Pay off your debts 
+- Net worth calculator 
+- financial AND medical security 
+    - HSA & HDHP - How to think about Healthcare 
+- ROTH & Backdoor ROTH 
+- Thinking of a healthy investment ratio 
+- investing in crypto 
+- investing in real estate 
+- okr tracker 

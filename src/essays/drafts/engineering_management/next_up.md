@@ -1,0 +1,18 @@
+---
+- How we pull work in the team
+- Things for people to know about how we operate
+- mental models
+- budget planning 
+- what is my day/week/month allocation of work as a Sr. Dir of Eng 
+- what do you need to do to get promoted 
+- platohq conversations written out 
+- goal setting x-functionally
+- Engineering simple rules 
+- % allocation for teams (bau/roadmap/tech arch/10%)
+- what makes team culture (conversation with wes)
+- working with Product Management 
+    - looking at the problem holistically to prevent local maxima 
+    - tshirt sizing to know high level estimate
+    - asking for drivers + what are the most important pieces 
+    - tradeoffs for what may or may not be possible 
+    - socialize with stakeholders to ensure the tradeoffs are reasonable 
